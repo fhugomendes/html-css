@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonts Externas</title>
+    <style>
+        /*
+        Tipos de format()
+        - opentype (otf)
+        - treutype (ttf)
+        - embedded-opentype
+        - truetype-aat (Apple Advanced Typography)
+        - svg
+        */
+
+        @font-face {
+            font-family: 'Blackza';
+            src: url(fonts/Blackza.otf) format('opentype'), url(fonts/Blackza.ttf) format('truetype');
+        }
+
+        h1 {
+            font-family: 'Blackza', serif;
+            font-size: 3em 
+         }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Utilizando Fontes Externas</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam asperiores voluptatem nulla pariatur rem. Sunt mollitia possimus deserunt at! Culpa minima tenetur eos? Adipisci assumenda tempore expedita ratione perspiciatis. Voluptate! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum, nobis sapiente. Debitis ipsa eligendi rerum maxime hic necessitatibus veniam ratione eveniet, pariatur, quos ab magnam autem id delectus natus quibusdam! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam amet commodi quisquam porro adipisci mollitia impedit unde, voluptatum pariatur nulla, non veritatis corporis, corrupti voluptates? Distinctio vel officiis nulla maiores.
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro fugit repudiandae voluptatum, quisquam incidunt sit tenetur deleniti eos reprehenderit tempora. Dicta, perferendis quibusdam obcaecati provident labore nam animi cum qui. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus ab est sunt aliquid illum. Quis aliquid similique amet, iure fugiat ipsum accusamus atque quibusdam delectus fugit error dolor dolore facilis!</p>
+</body>
+</html>
