@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas</title>
+    <style>
+        table {
+            width: 750px;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+        }
+
+        th {
+            background-color: lightgray;
+            font-weight: bolder;
+        }
+
+        .nota {
+            text-align: center;
+        }
+
+        .media {
+            text-align: center;
+            background-color: whitesmoke;
+            color: black;
+            font-weight: bold;
+        }
+
+        .mediageral{
+            text-align: center;
+            background-color: lightgray;
+            color: black;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col" rowspan="2">Área</th>
+                <th scope="col" rowspan="2">Disciplinas</th>
+                <th scope="colgroup" colspan="2">Notas</th>
+                <th scope="col" rowspan="2">Média</th>
+            </tr>
+            <tr>
+                <th scope="col">Nota 1</th>
+                <th scope="col">Nota 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="rowgroup" rowspan="4">Exatas</th>
+                <td>Matemática</td>
+                <td class="nota">7.9</td>
+                <td class="nota">8.0</td>
+                <td class="media">7.9</td>
+            </tr>
+
+            <tr>
+                <td>Fisica</td>
+                <td class="nota">6.8</td>
+                <td class="nota">7.5</td>
+                <td class="media">7.1</td>
+            </tr>
+            
+            <tr>
+                <td>Quimica</td>
+                <td class="nota">9.8</td>
+                <td class="nota">8.5</td>
+                <td class="media">9.1</td>
+            </tr>
+            
+            <tr>
+                <td>Biologia</td>
+                <td class="nota">7.8</td>
+                <td class="nota">10</td>
+                <td class="media">8.9</td>
+            </tr>
+            
+            <tr>
+                <th scope="row" colspan="4">Média de Exatas</th>
+                <td class="mediageral">8.2</td>
+            </tr>
+            
+            <tr>
+                <th scope="rowgroup" rowspan="2">Humanas</th>
+                <td>História</td>
+                <td class="nota">8.8</td>
+                <td class="nota">10</td>
+                <td class="media">8.4</td>
+            </tr>
+            
+            <tr>
+                <td>Geografia</td>
+                <td class="nota">9.8</td>
+                <td class="nota">8.5</td>
+                <td class="media">9.1</td>
+            </tr>
+
+            <tr>
+                <th scope="row" colspan="4">Média de Humanas</th>
+                <td class="mediageral">8.7</td>
+            </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>
