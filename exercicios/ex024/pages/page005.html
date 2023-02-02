@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: aquamarine;
+      }
+
+      div {
+        text-align: center;
+      }
+
+      a {
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <a href="#" onclick="clicou()">Clique em mim!</a>
+    </div>
+
+    <script>
+      function clicou() {
+        string = document.querySelector("div");
+        string.innerHTML += "<p>Você clicou</p>";
+      }
+    </script>
+  </body>
+</html>
