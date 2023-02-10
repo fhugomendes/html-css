@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get">
+        <div>
+            <label for="num">Número</label>
+            <input type="range" name="num" id="num" value="5" min="0" max="10" oninput="val.innerHTML = num.value">
+            <output id="val">5</output>
+        </div>
+
+        <div>
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
+</body>
+</html>
