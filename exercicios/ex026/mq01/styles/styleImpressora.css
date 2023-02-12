@@ -1,0 +1,40 @@
+@charset 'UTF-8';
+
+/* Estilos para impressora */
+
+* {
+    margin: 0.10em;
+    padding: 0.10em;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main {
+    width: 100vw;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    background-color: black;
+    color: white;
+    padding: 2rem;
+}
+
+menu ul {
+    display: none;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+article p {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    margin: 3rem;
+}
